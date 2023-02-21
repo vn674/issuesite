@@ -1,0 +1,211 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(255, 255, 255);
+	font-family: 'Lato', sans-serif;
+	margin: 20px;
+	padding: 0px;
+}
+
+.hero-image {
+	background-image: url('road.jpg');
+  background-color: #cccccc;
+  height: 350px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 5px;
+
+}
+
+.header-text {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 4.5rem;
+  font-weight: 900;
+  background-color: rgb(111, 141, 189);
+  padding: 10px;
+  color: rgb(245, 245, 235);
+  border-radius: 5px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.main-container {
+	background-color: rgb(255, 255, 255);
+	display: flex;
+	align-items: stretch;
+	justify-content: space-between;
+	height: 100%;
+	margin-top: 20px;
+}
+
+.menu {
+	background-color: rgb(147, 182, 237);
+	display: border-box;
+	margin-bottom: 0px;
+	flex: 1;
+	border-radius: 5px;
+	margin-right: 10px;
+}
+
+.nav_link, .nav_link:visited {
+	color: rgb(5, 5, 5);
+	font-size: 2vw;
+	font-weight: 600;
+	text-decoration: none;
+	top: 25px;
+	left: 40px;
+	line-height: 50px;
+	position: relative;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.in-text-link, .in-text-link:visited {
+	color: rgb(40, 90, 122);
+	text-decoration: underline;
+	text-decoration-color: rgb(55, 117, 158);
+	cursor: pointer;
+}
+
+.news-link, .news-link:visited {
+	font-size: 2rem;
+	font-weight: 700;
+	text-decoration: underline;
+	color: rgb(40, 90, 122);
+	text-decoration-color: rgb(55, 117, 158);
+	cursor: pointer;
+}
+
+.nav_link:hover {
+	background-color: rgb(255, 255, 255);
+	color: rgb(97, 97, 97);
+	padding: 5px 5px;
+}
+
+.content-box {
+	background-color: rgb(230, 238, 252);
+	display: border-box;
+	padding: 25px 60px 60px;
+	margin-left: 10px;
+	flex: 3.5;
+	height: 100%;
+	border-radius: 5px;
+}
+
+.content-container {
+	display: flex;
+}
+
+.news-container {
+	display: flex;
+	background-color: rgb(247, 246, 233);
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px 0;
+}
+
+.intro-p1 {
+	flex: 1;
+	margin-right: 10px;
+}
+
+.intro-pic {
+	flex: 1;
+	margin-left: 10px;
+	margin-top: 30px;
+}
+
+.news-title {
+	flex: 3;
+	margin: 0 10px;
+}
+
+.news-pic {
+	flex: 1;
+	margin-left: 10px;
+}
+
+.orgs-container {
+	text-align: center;
+	display: inline-block;
+}
+
+#hawaii-pic {
+	background-image: url('hawaii-awareness.jpg');
+  background-color: #cccccc;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+img.news {
+	height: 200px;
+  border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.orgs {
+	height: 150px;
+  border-radius: 5px;
+  margin: 15px;
+}
+
+.orgs:hover {
+	background-color: rgb(97, 97, 97);
+	padding: 5px 5px;
+}
+
+.quote-box {
+	color: rgb(2, 71, 115);
+	font-weight: 500;
+}
+
+.embed-container { 
+	position: relative; 
+	padding-bottom: 56.25%; 
+	height: 0; 
+	overflow: hidden; 
+	max-width: 100%; 
+} 
+
+.embed-container iframe, .embed-container object, .embed-container embed { 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%; 
+}
+
+h1 {
+	font-size: 2.5rem;
+	font-weight: 600;
+}
+
+h2 {
+	font-size: 2rem;
+	font-weight: 500;
+}
+
+p {
+	font-size: 1.5rem;
+}
+
+p.italic {
+	font-style: italic;
+}
+
+p.date {
+	color: rgb(2, 71, 115);
+}
